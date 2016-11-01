@@ -25,7 +25,7 @@ public class Taller {
         double correcto;
         Scanner leer = new Scanner(System.in);
 
-        System.out.print("Ingrese una  IP: ");
+        System.out.print("Ingrese una direcion  IP: ");
         ip = leer.next();
         validar = ip.split("\\.");
         System.out.printf("Elementos de la Ip: %s\n", Arrays.toString(validar));
